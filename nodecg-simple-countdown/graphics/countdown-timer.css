@@ -1,0 +1,15 @@
+/* Font settings. */
+@font-face {
+	font-family: 'MeriendaOne Regular';
+	src: url('./MeriendaOne-Regular.ttf');
+}
+
+#main {
+    font-family: 'MeriendaOne Regular';
+    color: #ffffff;
+    font-size: 200px;
+	text-align: center;
+	width: 1200px;
+    height: 200px;
+    line-height: 200px;
+}
