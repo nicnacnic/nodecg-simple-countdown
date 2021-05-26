@@ -1,7 +1,7 @@
 {
   "name": "nodecg-simple-countdown",
   "version": "1.0.0",
-  "description": "A very primitive countdown timer graphic for NodeCG!",
+  "description": "A very primitive countdown timer graphic for NodeCG.",
   "homepage": "https://github.com/nicnacnic/nodecg-simple-countdown",
   "author": "nicnacnic",
   "url": "https://nicnacnic.com",
