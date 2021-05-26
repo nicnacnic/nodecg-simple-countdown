@@ -2,7 +2,7 @@
 A very primitive countdown timer graphic for NodeCG.
 
 ## Installation
-Execure `nodecg install nicnacnic/nodecg-simple-countdown` in a terminal to install the bundle. Then run `nodecg defaultconfig nodecg-simple-countdown` to generate the config file.
+Execute `nodecg install nicnacnic/nodecg-simple-countdown` in a terminal window to install the bundle. Then run `nodecg defaultconfig nodecg-simple-countdown` to generate the config file.
 
 ## Configuration
 The config file is located in `<path_to_nodecg/cfg/nodecg-simple-countdown.json` if you generated the config earlier. The default config looks like this.
