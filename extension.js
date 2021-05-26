@@ -40,19 +40,15 @@ module.exports = function (nodecg) {
         else
             seconds = s.toString();
 
-        if (nodecg.bundleConfig.removeZeros) {
-            if (d <= 0 && !nodecg.bundleConfig.showDays) {
-                if (((d * 24) + h) <= 0 && !nodecg.bundleConfig.showHours) {
-                    if (((((d * 24) + h) * 60) + m) <= 0 && !nodecg.bundleConfig.showMinutes)
-                        timeLeft.value = seconds;
-                    else
-                        timeLeft.value = minutes + ':' + seconds;
-                }
+        if (d <= 0 && !nodecg.bundleConfig.showDays) {
+            if (((d * 24) + h) <= 0 && !nodecg.bundleConfig.showHours) {
+                if (((((d * 24) + h) * 60) + m) <= 0 && !nodecg.bundleConfig.showMinutes)
+                    timeLeft.value = seconds;
                 else
-                    timeLeft.value = hours + ':' + minutes + ':' + seconds;
+                    timeLeft.value = minutes + ':' + seconds;
             }
             else
-                timeLeft.value = days + ':' + hours + ':' + minutes + ':' + seconds;
+                timeLeft.value = hours + ':' + minutes + ':' + seconds;
         }
         else
             timeLeft.value = days + ':' + hours + ':' + minutes + ':' + seconds;

@@ -5,8 +5,7 @@
         "dateToCountdown": "1970-01-01T00:00:00+0000",
         "showDays": true,
         "showHours": true,
-        "showMinutes": true,
-        "removeZeros": true
+        "showMinutes": true
     },
     "description": "The root schema comprises the entire JSON document.",
     "examples": [
@@ -14,16 +13,14 @@
             "dateToCountdown": "1970-01-01T00:00:00+0000",
             "showDays": true,
             "showHours": true,
-            "showMinutes": true,
-            "removeZeros": true
+            "showMinutes": true
         }
     ],
     "required": [
         "dateToCountdown",
         "showDays",
         "showHours",
-        "showMinutes",
-        "removeZeros"
+        "showMinutes"
     ],
     "title": "The root schema",
     "type": "object",
@@ -62,16 +59,6 @@
             "$id": "#/properties/showMinutes",
             "type": "boolean",
             "title": "The showMinutes schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": false,
-            "examples": [
-                true
-            ]
-        },
-        "removeZeros": {
-            "$id": "#/properties/removeZeros",
-            "type": "boolean",
-            "title": "The removeZeros schema",
             "description": "An explanation about the purpose of this instance.",
             "default": false,
             "examples": [
