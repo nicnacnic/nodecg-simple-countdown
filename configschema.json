@@ -1,0 +1,83 @@
+{
+    "$id": "http://example.com/example.json",
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "default": {
+        "dateToCountdown": "1970-01-01T00:00:00+0000",
+        "showDays": true,
+        "showHours": true,
+        "showMinutes": true,
+        "removeZeros": true
+    },
+    "description": "The root schema comprises the entire JSON document.",
+    "examples": [
+        {
+            "dateToCountdown": "1970-01-01T00:00:00+0000",
+            "showDays": true,
+            "showHours": true,
+            "showMinutes": true,
+            "removeZeros": true
+        }
+    ],
+    "required": [
+        "dateToCountdown",
+        "showDays",
+        "showHours",
+        "showMinutes",
+        "removeZeros"
+    ],
+    "title": "The root schema",
+    "type": "object",
+    "properties": {
+        "dateToCountdown": {
+            "$id": "#/properties/dateToCountdown",
+            "type": "string",
+            "title": "The dateToCountdown schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "1970-01-01T00:00:00+0000"
+            ]
+        },
+        "showDays": {
+            "$id": "#/properties/showDays",
+            "type": "boolean",
+            "title": "The showDays schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                true
+            ]
+        },
+        "showHours": {
+            "$id": "#/properties/showHours",
+            "type": "boolean",
+            "title": "The showHours schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                true
+            ]
+        },
+        "showMinutes": {
+            "$id": "#/properties/showMinutes",
+            "type": "boolean",
+            "title": "The showMinutes schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                true
+            ]
+        },
+        "removeZeros": {
+            "$id": "#/properties/removeZeros",
+            "type": "boolean",
+            "title": "The removeZeros schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                true
+            ]
+        }
+    },
+    "additionalProperties": true
+}
